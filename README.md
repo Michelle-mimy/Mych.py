@@ -1,2 +1,18 @@
 # Mych.py
 Creating a system for a score 
+score = int(input("enter the score: "))
+If 70 <= score <= 100:
+grade = 'A'
+elif 60 <= score <= 69:
+grade = 'B'
+elif 50 <= score <= 59:
+grade = 'C'
+elif 45 <= score <= 49:
+grade = 'D'
+elif 40 <= score <= 44:
+grade = 'E'
+elif 0 <= score <= 39:
+grade = 'F'
+else :
+grade = 'Invalid score'
+print (" Grade: ", grade )
